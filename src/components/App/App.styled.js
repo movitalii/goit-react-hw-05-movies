@@ -5,7 +5,7 @@ export const Container = styled.div`
   max-width: 100%;
   margin: 0 auto;
   padding: 0 16px;
-  background-color: rgb(246, 136, 2);
+  background-color: rgb(2, 148, 246);
   height: 100vh;
 `;
 
@@ -18,7 +18,7 @@ export const Header = styled.header`
   margin-bottom: 16px;
   border-bottom: 1px solid black;
   position: fixed;
-  background-color: rgb(246, 136, 2);
+  background-color: rgb(2, 148, 246);
   width: 100%;
   z-index: 999;
   > nav {
@@ -34,6 +34,6 @@ export const Link = styled(NavLink)`
   font-weight: 500;
   &.active {
     color: white;
-    background-color: rgb(49, 48, 48);
+    background-color: rgb(16, 0, 85);
   }
 `;

@@ -4,7 +4,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background-color: rgb(49, 48, 48);
+  background-color: rgb(16, 0, 85);
 }
 .itemsWrapper {
   display: flex;
@@ -45,6 +45,6 @@
   text-align: center;
   font-size: 14px;
   font-weight: 700;
-  color: rgb(246, 136, 2);
+  color: rgb(2, 148, 246);
   width: 140px;
 }

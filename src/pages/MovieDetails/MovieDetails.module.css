@@ -1,6 +1,6 @@
 .sectionWrapper {
-  background-color: rgb(49, 48, 48);
-  color: #fff;
+  background-color: rgb(16, 0, 85);
+  color: #FFFFFF;
   padding: 24px;
   width: 100%;
 }
@@ -12,12 +12,12 @@
   text-decoration: none;
   color: #fff;
   font-weight: 500;
-  background-color: rgb(246, 136, 2);
+  background-color: rgb(2, 148, 246);
   transition: all 0.2s ease-in-out;
 }
 .HomeButton:hover,
 .HomeButton:focus {
-  background-color: rgb(227, 96, 15);
+  background-color: rgb(2, 148, 246);
 }
 
 .DetailsNavigation {
@@ -27,13 +27,13 @@
   text-decoration: none;
   color: #fff;
   font-weight: 500;
-  background-color: rgb(246, 136, 2);
+  background-color: rgb(2, 148, 246);
   transition: all 0.2s ease-in-out;
 }
 
 .DetailsNavigation:hover,
 .DetailsNavigation:focus {
-  background-color: rgb(227, 96, 15);
+  background-color: rgb(2, 148, 246);
 }
 .detailsTitle {
   margin-bottom: 10px;
