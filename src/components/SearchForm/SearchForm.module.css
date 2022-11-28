@@ -1,0 +1,49 @@
+.form {
+    height: 100%;
+    margin-top: 60px;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    max-width: 600px;
+    background-color: #fff;
+    border-radius: 3px;
+    overflow: hidden;
+    margin-bottom: 30px;
+}
+
+.formButton {
+    display: inline-block;
+    width: 48px;
+    height: 48px;
+    border: 0;
+    background-image: url('https: //thenounproject.com/api/private/icons/424965/edit/?backgroundShape=SQUARE&backgroundShapeColor=%23000000&backgroundShapeOpacity=0&exportSize=752&flipX=false&flipY=false&foregroundColor=%23000000&foregroundOpacity=1&imageFormat=png&rotation=0&token=gAAAAABjhRgwDII-gpkf7o4T4PKcijhdud07UEfoMtj2yuFHpBobpv-hvB4XHfLE3dy6JElk3tH2lsb5uS2evhe2nicQFss9QQ%3D%3D');
+    background-size: 60%;
+    background-repeat: no-repeat;
+    background-position: center;
+    opacity: 0.6;
+    box-shadow: 1px 5px 5px rgb(70, 67, 67);
+    transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    cursor: pointer;
+    outline: none;
+}
+
+.formButton:hover,
+.formButton:focus {
+    opacity: 1;
+}
+
+.formInput {
+    display: inline-block;
+    width: 100%;
+    font: inherit;
+    font-size: 20px;
+    border: none;
+    outline: none;
+    padding-left: 4px;
+    padding-right: 4px;
+}
+
+.formInput::placeholder {
+    font: inherit;
+    font-size: 18px;
+}
