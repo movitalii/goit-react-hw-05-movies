@@ -13,11 +13,14 @@
   color: #fff;
   font-weight: 500;
   background-color: rgb(2, 148, 246);
-  transition: all 0.2s ease-in-out;
+  transform: scale(1);  
 }
 .HomeButton:hover,
 .HomeButton:focus {
-  background-color: rgb(2, 148, 246);
+  background-color: white;
+  color: rgb(2, 148, 246);
+  transform: scale(1.05);
+  transition: transform 0.2s ease-in-out;
 }
 
 .DetailsNavigation {
@@ -28,12 +31,15 @@
   color: #fff;
   font-weight: 500;
   background-color: rgb(2, 148, 246);
-  transition: all 0.2s ease-in-out;
+  transform: scale(1);
 }
 
 .DetailsNavigation:hover,
 .DetailsNavigation:focus {
-  background-color: rgb(2, 148, 246);
+  background-color: white;
+  color: rgb(2, 148, 246);
+  transform: scale(1.05);
+  transition: transform 0.2s ease-in-out;
 }
 .detailsTitle {
   margin-bottom: 10px;
@@ -43,6 +49,10 @@
 }
 .detailsOverview {
   margin-bottom: 10px;
+}
+
+.detailsImg {
+  max-height: 500px;
 }
 
 .movieInfo {

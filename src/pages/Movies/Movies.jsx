@@ -44,7 +44,9 @@ const Movies = () => {
               <li className={css.movieItem} key={id}>
                 <NavLink to={`/movies/${id}`} state={{ from: location }}>
                   <img
-                    src={`https://image.tmdb.org/t/p/w300${poster_path}`}
+                    src={poster_path
+                      ? `https://image.tmdb.org/t/p/w300${poster_path}`
+                      : `https://sd.keepcalms.com/i-w600/keep-calm-poster-not-found.jpg`}
                     alt={title}
                   />
                   <h3 className={css.movieItemTitle}>{title}</h3>

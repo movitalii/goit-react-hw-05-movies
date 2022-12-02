@@ -30,7 +30,9 @@ const MovieDetails = () => {
           </Link>
           <img
             className={css.detailsImg}
-            src={`https://image.tmdb.org/t/p/w300${movieInfo.poster_path}`}
+            src={movieInfo.poster_path
+              ? `https://image.tmdb.org/t/p/w300${movieInfo.poster_path}`
+              : `https://sd.keepcalms.com/i-w600/keep-calm-poster-not-found.jpg`}
             alt=""
           />
 

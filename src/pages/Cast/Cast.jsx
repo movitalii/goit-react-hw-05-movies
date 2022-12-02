@@ -32,11 +32,13 @@ const Cast = () => {
                 <h4 className={css.cast__itemCharacter}>{character}</h4>
 
                 <img
-                  className={css.cast__img}
+                  className={profile_path
+                    ? css.cast__img
+                    : css.cast__img__notfound}
                   src={
                     profile_path
                       ? `https://image.tmdb.org/t/p/w300${profile_path}`
-                      : `https://i.pinimg.com/originals/9a/91/34/9a91349d6ceeba868c03a23776e6420d.jpg`
+                      : `https://i2.wp.com/avatar-management--avatars.us-west-2.prod.public.atl-paas.net/default-avatar-4.png?ssl=1`
                   }
                   alt={original_name}
                 />

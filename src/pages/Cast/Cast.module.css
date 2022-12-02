@@ -38,8 +38,27 @@
   cursor: pointer;
   transition: all 0.3s ease-out;
   background-color: rgb(2, 148, 246);
-  color: rgb(16, 0, 85);
+  color: FFFFFF;
 }
+
+.cast__img__notfound {
+  margin-top: 100px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex-basis: calc((100% - 30px * 5) / 5);
+  margin-right: 30px;
+  margin-bottom: 30px;
+  border-radius: 10px;
+
+  cursor: pointer;
+  transition: all 0.3s ease-out;
+  background-color: rgb(2, 148, 246);
+  color: FFFFFF;
+}
+
 .cast__item:hover,
 .cast__item:focus {
   transform: scale(1.1);
@@ -52,6 +71,7 @@
 
 .cast__itemCharacter {
   font-size: 15px;
+  margin-bottom: 10px;
 }
 .cast__img {
   width: 100vh;
