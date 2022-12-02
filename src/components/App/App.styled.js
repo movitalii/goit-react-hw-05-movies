@@ -31,17 +31,16 @@ export const Link = styled(NavLink)`
   padding: 8px 16px;
   border-radius: 5px;
   text-decoration: none;
-  color: white;
+  color: rgb(2, 148, 246);
+  background-color: white;
   font-weight: 500;
   transform: scale(1);
   &.active {
-    color: rgb(2, 148, 246);
-    background-color: white;
+    color: white;
+    background-color: rgb(3, 88, 145);
   }
   &:hover,
-  &:focus{
-    color: rgb(2, 148, 246);
-    background-color: white;
+  &:focus{    
     transform: scale(1.05);
     transition: transform 0.2s ease-in-out;
   }
