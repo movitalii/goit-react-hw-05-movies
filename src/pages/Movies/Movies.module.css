@@ -4,7 +4,7 @@
   justify-content: center;
   padding-top: 20px;
   flex-direction: column;
-  background-color: rgb(16, 0, 85);
+  background-color: rgb(3, 88, 145);
 }
 
 .moviesSection {
@@ -13,7 +13,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background-color: rgb(16, 0, 85);
+  background-color: rgb(3, 88, 145);
 }
 .homeTitle {
   font-size: 24px;

@@ -27,13 +27,22 @@ export const Header = styled.header`
 `;
 
 export const Link = styled(NavLink)`
+  margin-right: 5px;
   padding: 8px 16px;
-  border-radius: 4px;
+  border-radius: 5px;
   text-decoration: none;
-  color: black;
+  color: white;
   font-weight: 500;
+  transform: scale(1);
   &.active {
-    color: white;
-    background-color: rgb(16, 0, 85);
+    color: rgb(2, 148, 246);
+    background-color: white;
+  }
+  &:hover,
+  &:focus{
+    color: rgb(2, 148, 246);
+    background-color: white;
+    transform: scale(1.05);
+    transition: transform 0.2s ease-in-out;
   }
 `;
